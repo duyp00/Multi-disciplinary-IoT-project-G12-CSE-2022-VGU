@@ -1,0 +1,11 @@
+# Questions and Answers
+[Q] What do cats eat? [G] cat, eat, food [R] cat, eat [A] Cats eat fish and meat.
+[Q] What do dogs eat? [G] dog, eat, food [R] dog, eat [A] Dogs eat a variety of food including kibble and meat.
+[Q] Greetings [G] Hello [R ] Hello [A] Hello, I'm basic chatbot, how are you today?
+[Q] Thank you, have a nice day. [G] Thank, you, nice [R] Thank [A] Thank you, I hope you have a nice day. If you need anything, feel free to ask me. 
+[Q] what is the capital of vietnam? [G] what, is, capital? [R] what, capital, Vietnam [A] the capital of vietnam is hanoi.
+[Q] how is your feeling? [G] how, is, your, feeling? [R] How, your, feeling [A] i am a bot, i do not have feeling.
+[Q] How old are you [G] old [R] old [A] i am a bot, i don't have specific age.
+[Q] what is the time now [G] time, now [R] time, now [A] SpecialFunction: RealTime
+[Q] what is weather now [G] weather, data, now [R] weather [A] SpecialFunction: weatherdata
+

@@ -1,0 +1,11 @@
+0 dog
+1 cat
+2 monkey
+3 background
+4 face
+5 face+whitemask
+6 Apple Braeburn
+7 Watermelon
+8 Orange(orange)
+9 Corn
+10 Banana(yellow)

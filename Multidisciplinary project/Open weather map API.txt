@@ -1,0 +1,3 @@
+### API keys from open weather map to make weather function in chatbot_module work
+1ba298b96119df3e3c4163ee93eafd4f
+###
