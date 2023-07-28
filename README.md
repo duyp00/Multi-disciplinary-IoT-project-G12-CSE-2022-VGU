@@ -1,4 +1,5 @@
-# Group: G12
+Group: G12
+-
 Members:
 
 1 Nguyễn Mạnh Thành Long - 10422045
