@@ -1,3 +1,13 @@
+# Group: G12
+Members:
+
+1 Nguyễn Mạnh Thành Long - 10422045
+2 Phạm Duy - 10422022
+3 Bùi Đình Anh Huy - 10422098
+4 Nguyễn Trương Anh Tuấn - 10422082
+5 Phạm Đào Quốc Dũng - 10422020
+-
+
 #	Usage:
 
 Run Main.py.
