@@ -38,8 +38,7 @@ def weather_data_recieve(status,user_input,prev_input):
         for j in type_of_data_list:
             if j in prev_input:
                 type_of_data=j 
-        if "no" in City or "can't" in City or "can not" in City:
-            return 0, "Sorry for this inconvenience"
+        
 
         City=user_input 
     
@@ -51,15 +50,20 @@ def weather_data_recieve(status,user_input,prev_input):
             return 2, "Sorry, that city may not be in my dataset, can you try to type the name of the city again?"
             
     # Make a request to the OpenWeatherMap API
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={City}&appid={api_key}"
-    response = requests.get(url)
-    data = response.json()
-
+    try:
+        url = f"http://api.openweathermap.org/data/2.5/weather?q={City}&appid={api_key}"
+        response = requests.get(url)
+        data = response.json()
+    except:
+        return 0,"sorry, I can not connect to weather server"
     # Extract relevant information from the response
     wanswer=""
-    temperature = str(data["main"]["temp"])
-    temperature2=kelvin_to_celsius(temperature)
-    humidity = str(data["main"]["humidity"])
+    try:
+        temperature = str(data["main"]["temp"])
+        temperature2=kelvin_to_celsius(temperature)
+        humidity = str(data["main"]["humidity"])
+    except:
+        return 0, "I am sorry, I cannot check the weather status in the city you want."
     weather_description = str(data["weather"][0]["description"])
     if type_of_data=="temperature":       
         wanswer=temperature2+ "Celsius"
