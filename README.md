@@ -19,3 +19,5 @@ User can find questions in data.txt and ask the assistant. Keep in mind that thi
 1. weather temperature
 2. weather humidity
 2. weather now
+
+**There might be some bugs**
