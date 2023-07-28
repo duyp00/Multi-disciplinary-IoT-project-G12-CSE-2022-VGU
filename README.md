@@ -24,11 +24,11 @@ Due to GPU memory limitation, I trained the model with batch size of just 16. (I
 -
 •	Chatbot: (some more questions and answers may be added)
 
-User can find questions in data.txt and ask the assistant. Keep in mind that this chatbot is not intelligent, it only works with limited knowledge about a specific field/topic. Hence, you need to ask exactly questions prepared in data.txt for it to understand. With unprepared questions, you can teach it the answers. This assistant can give you computer's local time. Through internet, it has access to live weather data. You need to ask about specific condition (temp, humidity, sky condition) and provide city name you want to get the information. Using this assistant, you can quickly get info about weather conditions in many cities only by remembering simple questions
+User can find questions in data.txt and ask the assistant. Keep in mind that this chatbot is not intelligent, it only works with limited knowledge about a specific field/topic. Hence, you need to ask exactly questions prepared in data.txt for it to understand. With unprepared questions, you can teach it the answers. This assistant can give you computer's local time. Through internet, it has access to live weather data. You need to ask about specific condition (temp, humidity, sky condition) and provide city name you want to get the information. Using this assistant, you can quickly get info about weather conditions in many cities just by remembering simple questions
 -
 *Some questions about weather:*
-1. weather temperature
-2. weather humidity
-3. weather now
+*weather temperature
+*weather humidity
+*weather now
 
 **There might be some bugs**
