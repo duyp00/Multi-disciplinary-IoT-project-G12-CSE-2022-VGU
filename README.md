@@ -1,7 +1,7 @@
 # Multi-disciplinary-IoT-project-G12-CSE-2022-VGU
 Usage:
-Run Main.py.
-Sign in by typing in any username and password. Then it will show 2 panels. The left-side panel is an AI camera. The right-side one is a chatbot assistant
+Run Main.py
+Before signing in, create an account by typing in any username and password. Then it will show 2 panels. The left-side panel is an AI camera. The right-side one is a chatbot assistant
 *AI cam:
 Click the IoT button. Fill in username and key
 Feed connection 1 is for label data.
