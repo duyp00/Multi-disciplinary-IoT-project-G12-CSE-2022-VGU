@@ -1,7 +1,6 @@
 Group: G12
 -
 Members:
-
 1 Nguyễn Mạnh Thành Long - 10422045
 2 Phạm Duy - 10422022
 3 Bùi Đình Anh Huy - 10422098
@@ -9,7 +8,7 @@ Members:
 5 Phạm Đào Quốc Dũng - 10422020
 -
 
-#	Usage:
+Usage:
 
 Run Main.py.
 Before signing in, create an account by typing in any username and password. Then it will show 2 panels. The left-side panel is an AI camera. The right-side one is a chatbot assistant.
