@@ -1,4 +1,4 @@
-•	Usage:
+#	Usage:
 
 Run Main.py.
 Before signing in, create an account by typing in any username and password. Then it will show 2 panels. The left-side panel is an AI camera. The right-side one is a chatbot assistant.
